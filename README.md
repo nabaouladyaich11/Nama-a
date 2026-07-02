@@ -7,6 +7,11 @@
 
 An AI-powered financial behavior coach — a concept built for **Alinma Bank (مصرف الإنماء)**.
 
+
+
+![Nama'a Project Overview](nama-overview.png)
+
+
 `React` · `RTL Arabic UI` · `Interactive Prototype`
 
 </div>
