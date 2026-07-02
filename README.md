@@ -59,22 +59,7 @@ The interactive prototype covers the core flow:
 - Pure inline styling — zero external dependencies, drops into any React app
 - Designed mobile-first inside a phone frame for demo/recording purposes
 
-## 🚀 Getting Started
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/<your-username>/nama-prototype.git
-cd nama-prototype
-
-# 2. Create a React app (if running standalone)
-npm create vite@latest . -- --template react
-npm install
-
-# 3. Replace src/App.jsx with nama-prototype.jsx, then:
-npm run dev
-```
-
-Open `http://localhost:5173` — the prototype runs entirely in the browser with mock data (no backend required).
 
 ## 🗺️ Roadmap
 
