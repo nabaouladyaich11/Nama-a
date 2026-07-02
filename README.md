@@ -18,30 +18,6 @@ An AI-powered financial behavior coach — a concept built for **Alinma Bank (م
 
 ---
 
-## 💡 The Problem
-
-At the end of every month, the same question repeats: **"أين ذهب راتبي؟" — "Where did my salary go?"**
-
-The problem is rarely low income — it's the dozens of small, unconscious spending decisions that are hard to notice or change. Most money-management apps stop at showing numbers and charts, leaving the user asking: *what should I actually do differently?*
-
-## ✨ The Solution
-
-**نماء (Nama'a)** is a smart financial coach that reads the user's spending behavior, learns their habits, and turns raw transactions into **personal, actionable guidance** — like a financial advisor who understands your circumstances and goals:
-
-- 🧠 Analyzes spending patterns and detects behaviors the user may not notice
-- 💬 Delivers short, personal coaching tips instead of raw charts
-- 🎯 Tracks goals (emergency fund, saving for a purchase, paying off commitments)
-- 📊 Answers "أين ذهب راتبي؟" with a clear breakdown, every month
-- 🌱 Builds healthier money habits step by step, without judgment
-
-## 👥 Target Users
-
-| Segment | Need |
-|---|---|
-| New employees | Managing a first salary |
-| Unplanned spenders | Fixing budget leaks & weak commitment |
-| Freelancers & gig workers | Handling irregular income |
-| Goal savers | Emergency funds, big purchases, paying off obligations |
 
 ## 📱 Prototype Screens
 
@@ -58,6 +34,7 @@ The interactive prototype covers the core flow:
 
 > 🎨 Brand palette: Navy `#1B2A5B` · Deep `#131F45` · Teal accent `#2AB3A6` — full RTL Arabic layout.
 
+
 ## 🛠️ Tech Stack
 
 - **React** (functional components + hooks, single-file prototype)
@@ -66,13 +43,7 @@ The interactive prototype covers the core flow:
 
 
 
-## 🗺️ Roadmap
 
-- [ ] Connect to real transaction data (Open Banking APIs)
-- [ ] LLM-powered personalized coaching engine
-- [ ] Push-notification nudges at decision moments
-- [ ] Monthly "أين ذهب راتبي؟" auto-generated report
-- [ ] Budget commitments & streak tracking
 
 ## 🎓 About
 
