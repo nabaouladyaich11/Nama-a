@@ -48,11 +48,15 @@ Runnable proof pack (Google Colab, one cell):
 **AI Engine:** Python, NumPy, Matplotlib (Monte Carlo + Q-learning)
 **Build & Deploy:** Replit (published at namaly.app), Google Colab, GitHub
 
-## 🎓 Team
+## 🎓 Team — فريق نماء
 
-Built by **Naba Abdulrahman OuladYaich** — Tech Lead & AI Engineer — and team.
-Amad 2026 · أمد — Tuwaiq Academy × Alinma Bank.
+Built at **Amad 2026 Hackathon** (أمد — Tuwaiq Academy × Alinma Bank) by:
 
+- **نبأ عبد الرحمن أولاد يعيش**
+- **لينة سعود المطرفي**
+- **أريام حمدان الهذلي**
+- **رتاج عنيبر القارحي**
+- **سندس علي العمري**
 ---
 
 <div align="center">
