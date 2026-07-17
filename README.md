@@ -1,59 +1,62 @@
 <div align="center">
 
-# نماء | Nama'a
+# نماء | Namaa
+### قرارك اليوم... نماءٌ لغدك
+**المدير المالي الذكي للمنشآت الصغيرة والمتوسطة**
 
-### قرارك اليوم... نماء لغدك
-**From data... to smarter financial decisions.**
+An AI CFO for Saudi SMEs — reads the business's own invoices, predicts cash deficits
+before they happen, and proposes an optimal, owner-approved payment plan.
 
-An AI-powered financial behavior coach — a concept built for **Alinma Bank (مصرف الإنماء)**.
+🔗 **جرّب المنتج مباشرة: [namaly.app](https://namaly.app)**
 
+Built for **Amad 2026 Hackathon** — Tuwaiq Academy × **مصرف الإنماء | Alinma Bank**
+مسار الذكاء الاصطناعي التوليدي للتقنية المالية
 
-
-![Nama'a Project Overview](nama-overview.png)
-
-
-`React` · `RTL Arabic UI` · `Interactive Prototype`
+`React + TypeScript` · `Python AI Engine` · `RTL Arabic UI` · `Live on namaly.app`
 
 </div>
 
 ---
 
+## 💡 What Namaa does — احمِ · وفّر · انمُ
 
-## 📱 Prototype Screens
+| Pillar | Capability |
+|---|---|
+| 🛡️ **احمِ** | Probabilistic 45-day cashflow simulation detects deficits with date, amount, and probability — then an RL agent proposes the optimal fix (defer within supplier terms / split invoices). **Payroll is locked out of the action space by design.** |
+| 💰 **وفّر** | Profit-leak detector: duplicate invoices, gradual supplier price creep — recovered **5,500 SAR** in the demo scenario without any user action. |
+| 📈 **انمُ** | "اسأل نماء" decision simulator: inventory, hiring, and expansion questions answered from the business's own numbers. Usage builds a credit-ready financial profile — a qualified financing channel for the bank. |
 
-The interactive prototype covers the core flow:
+**Trust model:** الوكيل يجهّز — المالك يقرر. Financial numbers come from a deterministic, auditable engine (zero hallucination); the owner approves every action.
 
-1. **Splash** — brand entry with the نماء identity
-2. **تسجيل الدخول (Login)** — with loading state
-3. **إنشاء حساب (Sign up)** — full account creation form
-4. **الرئيسية (Dashboard)** — the heart of the product:
-   - Monthly spending summary with month-over-month change
-   - **مدربك المالي نماء** — rotating AI coaching tips
-   - **أين ذهب راتبي؟** — instant spending breakdown by category
-   - Goal tracker with progress (e.g., emergency fund)
+## 🖥️ Live prototype — [namaly.app](https://namaly.app)
 
-> 🎨 Brand palette: Navy `#1B2A5B` · Deep `#131F45` · Teal accent `#2AB3A6` — full RTL Arabic layout.
+Five connected Arabic RTL screens: لوحة التحكم (health score 71→84) → الفواتير (upload + extraction) → التدفق النقدي (deficit radar + AI plan) → الموافقات (supplier negotiation message, one-tap approve) → اسأل نماء (proactive CFO briefing).
 
+Demo scenario: **متجر أثير للعطور** — a Saudi online perfume brand whose payment-gateway settlements arrive after payroll day.
+
+## 🧠 AI Engine — [`engine/`](./engine)
+
+Runnable proof pack (Google Colab, one cell):
+- **2,000 synthetic invoices** matching Saudi e-invoice (فاتورة) field structure
+- **Monte Carlo cashflow** — 3,000 runs: deficit probability near-certain → **10%** with Namaa's plan
+- **Q-learning scheduler** — 4,000 episodes, converges on the optimal plan, salaries never touched
+- **Auditable health score** — weighted composite, 71 → 84
 
 ## 🛠️ Tech Stack
 
-- **React** (functional components + hooks, single-file prototype)
-- Pure inline styling — zero external dependencies, drops into any React app
-- Designed mobile-first inside a phone frame for demo/recording purposes
+**Frontend:** React + TypeScript, Vite, Tailwind, Chart.js — Arabic RTL, Cairo font
+**AI Engine:** Python, NumPy, Matplotlib (Monte Carlo + Q-learning)
+**Build & Deploy:** Replit (published at namaly.app), Google Colab, GitHub
 
+## 🎓 Team
 
-
-
-
-## 🎓 About
-
-Concept and prototype by **Naba Abdulrahman OuladYaich** — AI Engineer.
-Built as a product concept for **مصرف الإنماء | Alinma Bank**.
+Built by **Naba Abdulrahman OuladYaich** — Tech Lead & AI Engineer — and team.
+Amad 2026 · أمد — Tuwaiq Academy × Alinma Bank.
 
 ---
 
 <div align="center">
 
-**نماء — لأن كل ريال يستحق قرارًا واعيًا 🌱**
+**نماء — لأن كل منشأة تستحق مديرًا ماليًا 🌱**
 
 </div>
